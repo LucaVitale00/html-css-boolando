@@ -1,0 +1,207 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* nav bar style */
+#nav-bar{
+  display: flex;
+  width: 100%;
+  height: 55px;
+  background-color: #ff6900;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+/* gender element style */
+#gender{
+  width: 22%;
+  height: 55px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#gender ul{
+  font-size: 12px;
+  font-weight: bold;
+  list-style: none;
+  display: flex;
+  cursor: pointer;
+}
+
+#gender li{
+  padding-left: 10px;
+}
+
+/* logo boolando */
+#logo{
+  width: 56%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo img{
+  width: 100px;
+  cursor: pointer;
+}
+
+/* menù nav azioni */
+#nav-action{
+  width: 22%;
+  height: 55px;
+  padding-left: 80px;
+  font-size: 12px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+#nav-action i {
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+/* main */
+.main-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 80px 0 50px;
+}
+
+/* img prodotto */
+.product{
+  position: relative;
+} 
+
+.product img{
+  width: 330px;
+  margin: 20px 10px 0px;
+}
+
+/* heart */
+.heart{
+  font-size: 27px;
+  padding: 4px 10px ;
+  background-color: #fff;
+  cursor: pointer;
+
+  position: absolute;
+  right: 10px;
+  top: 30px;
+}
+
+.heart:hover{
+  color: red;
+}
+
+/* sconti */
+.sales{
+  font-size: 11px;
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  padding: 4px 8px;
+
+  position: absolute;
+  bottom: 80px;
+  left: 10px;
+  z-index: 2;
+}
+
+.green{
+  background-color: green;
+  left: 53px;
+  z-index: 2;
+}
+
+.alt{
+  left:10px;
+}
+
+/* description prodotto */
+.brand, .item-name, .red{
+  margin: 0 10px;
+}
+
+.brand{
+  font-size: 11px;
+}
+
+.item-name{
+  font-weight: 800;
+  font-size: 12px;
+}
+
+.price{
+  font-size: 11px;
+  text-decoration: line-through;
+  color: black;
+  font-weight: normal;
+}
+
+.red{
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* footer */
+#ftr-nav{
+  width: 100%;
+  height: 80px;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+#ftr-left{
+  float: left;
+  padding-top: 20px;
+  margin-left: 12%;
+}
+
+#society{
+  font-weight: bold;
+  padding-bottom: 7px;
+  font-size: 14px;
+}
+
+#info{
+  font-size: 11px;
+}
+
+#info span{
+  padding-right: 10px;
+}
+
+#ftr-right{
+  float: right;
+  padding-top: 20px;
+  margin-right: 12%;
+}
+
+#social{
+  font-size: 11px;
+  font-weight: bold;
+}
+
+#brand-icon{
+  padding-top: 10px;
+}
+
+#brand-icon i{
+  padding-right: 5px;
+}
+
