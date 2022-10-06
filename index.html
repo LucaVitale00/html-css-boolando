@@ -1,244 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-  <link rel="stylesheet" href="css/style.css">
-  <title>Boolando</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boolando</title>
 </head>
 <body>
-  <!-- Barra di navigazione e logo -->
-  <header>
-    <div id="nav-bar">
-      <!-- Gender menù -->
-      <div id="gender">
-        <ul>
-          <li>Donna</li>
-          <li>Uomo</li>
-          <li>Bambini</li>
-        </ul>
-      </div>
+    
+    <!-- Nav/Header (fixed) -->
 
-      <!-- logo ecommerce -->
-      <div id="logo">
-        <img src="img/boolean-logo.png" alt="logo">
-      </div>
+<header>
 
-      <!-- menù azioni -->
-      <div id="nav-action">
-        <i class="fa-regular fa-user"></i>
-        <i class="fa-regular fa-heart"></i>
-        <i class="fa-solid fa-bag-shopping"></i>
-      </div>
-    </div>
-  </header>
+    <nav>
 
-  <!-- prodotti -->
-  <main>
-    <div class="main-container">
-      <!-- griglia prodotti -->
-      <div class="product">
-        <img src="img/1.webp" alt="img-1">
+        <section class="clothing">
 
-        <span class="heart"> 
-          &hearts;
-        </span>
+            <div class="genre">Donna</div>
+            <div class="genre">Uomo</div>
+            <div class="genre">Bambini</div>
 
-        <span class="sales">
-          -50%
-        </span>
+        </section>
 
-        <span class="sales green">
-          Sostenibilità
-        </span>
+        <section class="boolando">
 
-        <!-- description sotto img -->
-        <div class="brand">
-          Levi's
-        </div>
+            <div class="logo">
+                
+            </div>
 
-        <div class="item-name">
-          RELAXED FIT TEE UNISEX
-        </div>
+        </section>
 
-        <div class="price red">
-          14,99 &euro;
-          <span class="price">29,99 &euro;</span>
-        </div>
+        <section class="utilities">
+            <div class="lcons">
 
-      </div>
+                <div class="sideicon">
+                    <i class="fa-regular fa-user"></i>
+                </div>
 
-      <!-- secondo prodotto -->
-      <div class="product">
-        <img src="img/2.webp" alt="img-2">
+                <div class="sideicon">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
 
-        <span class="heart"> 
-          &hearts;
-        </span>
+                <div class="sideicon">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
 
-        <span class="sales">
-          -30%
-        </span>
+            </div>
+        </section>
 
-        <!-- description sotto img -->
-        <div class="brand">
-          Guess
-        </div>
+    </nav>
 
-        <div class="item-name">
-          ROSES TEE
-        </div>
+</header>
 
-        <div class="price red">
-          20,99 &euro;
-          <span class="price">29,99 &euro;</span>
-        </div>
-      </div>
+    <!-- Main/Shop -->
+    
+<main>
 
-      <!-- terzo prodotto -->
-      <div class="product">
-        <img src="img/3.webp" alt="img-3">
+    <section class="shop">
 
-        <span class="heart"> 
-          &hearts;
-        </span>
+        <!-- Row items -->
 
-        <span class="sales">
-          -30%
-        </span>
-
-        <!-- description sotto img -->
-        <div class="brand">
-          Come Zucchero Filato
-        </div>
-
-        <div class="item-name">
-          VOGLIA DI COLORI PASTELLO
-        </div>
-
-        <div class="price red">
-          129,99 &euro;
-          <span class="price">184,99 &euro;</span>
-        </div>
-      </div>
-
-      <!-- quarto prodotto -->
-      <div class="product">
-        <img src="img/4.webp" alt="img-4">
-
-        <span class="heart"> 
-          &hearts;
-        </span>
-
-        <span class="sales">
-          -50%
-        </span>
-
-        <span class="sales green">
-          Sostenibilità
-        </span>
-
-        <!-- description sotto img -->
-        <div class="brand">
-          Levi's
-        </div>
-
-        <div class="item-name">
-          TEE UNISEX
-        </div>
-
-        <div class="price red">
-          14,99 &euro;
-          <span class="price">29,99 &euro;</span>
-        </div>
-      </div>
-
-      <!-- quinto prodotto -->
-      <div class="product">
-        <img src="img/5.webp" alt="img-5">
-
-        <span class="heart"> 
-          &hearts;
-        </span>
-
-        <!-- description sotto img -->
-        <div class="brand">
-          Maya Deluxe
-        </div>
-
-        <div class="item-name">
-          STRIPE BODICE
-        </div>
-
-        <div class="price red">
-          99,99 &euro;
-        </div>
-      </div>
-
-      <!-- sesto prodotto -->
-      <div class="product">
-        <img src="img/6.webp" alt="img-6">
-
-        <span class="heart"> 
-          &hearts;
-        </span>
-
-        <span class="sales green alt">
-          Sostenibilità
-        </span>
-
-        <!-- description sotto img -->
-        <div class="brand">
-          Esprit
-        </div>
-
-        <div class="item-name">
-          MAGLIONE - BLACK
-        </div>
-
-        <div class="price red">
-          29,99 &euro;
-        </div>
-      </div>
-    </div>
-  </main>
-
-  <!-- info e link ai social -->
-  <footer>
-    <!-- barra footer -->
-    <div id="ftr-nav">
-
-      <!-- info società -->
-      <div id="ftr-left">
-        <div id="society">
-          Boolando s.r.l        
-        </div>
+        <div class="row">
         
-        <div id="info">
-          <span>Informazioni legali</span>
-          <span>Informativa sulla privacy</span>
-          <span>Diritto di recesso</span>
-        </div>
-      </div>
-      
-      <!-- social -->
-      <div id="ftr-right">
-        <div id="social">
-          Trovaci anche su 
+            <div class="cloth sx">
+                <div class="sale">-50%</div>
+                <div class="sostenibility">Sostenibile</div>
+                <div class="pref"><i class="fa-solid fa-heart"></i></div>
+                <img src="img/1.webp" alt="" id="product1">
+                <section class="description">
+                    <div>Levi's</div>
+                    <div class="bold-des">RELAXED FIT TEE UNISEX</div>
+                    <div class="price">14,99€</div><span class="old-price">29,99€</span>
+                </section>
+            </div>
+
+            <div class="cloth c">
+                <div class="sale">-30%</div>
+                <!-- <div class="sostenibility">Sostenibile</div> -->
+                <div class="pref"><i class="fa-solid fa-heart"></i></div>
+                <img src="img/2.webp" alt="" id="product2">
+                <div class="description">
+                    <div>Guess</div>
+                    <div class="bold-des">ROSES TEE</div>
+                    <div class="price">20,99€</div><span class="old-price">29,99€</span>
+                </div>
+            </div>
+
+            <div class="cloth dx">
+                <!-- <div class="sale"></div> -->
+                <!-- <div class="sostenibility">Sostenibile</div> -->
+                <div class="pref"><i class="fa-solid fa-heart"></i></div>
+                <img src="img/3.webp" alt="" id="product3">
+                <div class="description">
+                    <div>Come Zucchero Filato</div>
+                    <div class="bold-des">VOGLIA DI COLORI PASTELLO</div>
+                    <div class="price">129,99€</div><span class="old-price">184,99€</span>
+                </div>
+            </div>
+
         </div>
 
-        <!-- icone brand social -->
-        <div id="brand-icon">
-          <i class="fa-brands fa-square-twitter"></i>
-          <i class="fa-brands fa-square-facebook"></i>
-          <i class="fa-brands fa-square-instagram"></i>
-          <i class="fa-brands fa-square-pinterest"></i>
-          <i class="fa-brands fa-square-youtube"></i>          
+        <!-- Row items -->
+
+        <div class="row">
+        
+            <div class="cloth sx">
+                <div class="sale">-50%</div>
+                <div class="sostenibility">Sostenibile</div>
+                <div class="pref"><i class="fa-solid fa-heart"></i></div>
+                <img src="img/4.webp" alt="" id="product4">
+                <div class="description">
+                    <div>Levi's</div>
+                    <div class="bold-des">TEE UNISEX</div>
+                    <div class="price">14,99€</div><span class="old-price">29,99€</span>
+                </div>
+            </div>
+
+            <div class="cloth c">
+                <!-- <div class="sale"></div> -->
+                <!-- <div class="sostenibility">Sostenibile</div> -->
+                <div class="pref"><i class="fa-solid fa-heart"></i></div>
+                <img src="img/5.webp" alt="" id="product5">
+                <div class="description">
+                    <div>Maya Deluxe</div>
+                    <div class="bold-des">STRIPE BODICE</div>
+                    <div class="price">99,99€</div> <!--<span class="old-price"></span> -->
+                </div>
+            </div>
+
+            <div class="cloth dx">
+                <!-- <div class="sale"></div> -->
+                <div class="sostenibility" id="sx-down">Sostenibile</div>
+                <div class="pref"><i class="fa-solid fa-heart"></i></div>
+                <img src="img/6.webp" alt="" id="product6">
+                <div class="description">
+                    <div>Esprit</div>
+                    <div class="bold-des">MAGLIONE - BLACK</div>
+                    <div class="price">29,99€</div> <!--<span class="old-price"></span> -->
+                </div>
+            </div>
+
         </div>
-      </div>
-    </div>
-  </footer>
+
+    </section>
+
+    </main>
+
+    <!-- Footer -->
+
+<footer>
+
+    <section class="details">
+
+        <div  class="agency">
+
+            <div id="name-agency">
+                Boolean S.r.l
+            </div>
+
+            <section id="buttons">
+
+                <div class="legal-buttons">
+                    Informazioni legali
+                </div>
+
+                <div class="legal-buttons">
+                    Informativa sulla privacy
+                </div>
+
+                <div class="legal-buttons">
+                    Diritto di recesso
+                </div>
+
+            </section>
+
+        </div>
+
+        <div class="agency">
+
+            <div id="find-us">
+                Trovaci anche su
+            </div>
+
+            <section id="social-buttons">
+
+                <div class="social-icon">
+                    <i class="fa-brands fa-square-twitter"></i>
+                </div>
+
+                <div class="social-icon">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </div>
+
+                <div class="social-icon">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </div>
+
+                <div class="social-icon">
+                    <i class="fa-brands fa-square-pinterest"></i>
+                </div>
+                
+                <div class="social-icon">
+                    <i class="fa-brands fa-square-youtube"></i>
+                </div>
+
+            </section>
+
+        </div>
+
+    </section>
+
+</footer>
+
+
 </body>
 </html>
